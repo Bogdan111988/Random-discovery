@@ -1,0 +1,12 @@
+.navbar {
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.navbar h1 {
+  color: #c084fc;
+  font-size: 2rem;
+  margin: 0;
+}

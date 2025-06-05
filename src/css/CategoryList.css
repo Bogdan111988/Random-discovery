@@ -1,0 +1,30 @@
+.category-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.category-btn {
+  background-color: #8a2be2;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(138, 43, 226, 0.5);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  min-width: 120px;
+  text-align: center;
+}
+
+.category-btn:hover {
+  background-color: #6b1fb0;
+  transform: scale(1.05);
+}
+
+.category-btn.selected {
+  background-color: #c084fc;
+}
